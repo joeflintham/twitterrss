@@ -9,7 +9,7 @@ Plugin URI: http://www.fathompoint.co.uk/wordpress/plugins/TwitterRSS
 Description: This plugin reads Twitter JSON feeds and provides cached RSS feeds of same
 Author: Joe Flintham
 Version: 1
-Author URI: http://www.fathompoint.com
+Author URI: http://www.fathompoint.co.uk
 */
 
 define("FEEDS_PLUGIN_PATH", plugin_dir_path(__FILE__));
