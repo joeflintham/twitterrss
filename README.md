@@ -3,7 +3,7 @@
 
 This plugin is designed to offer a relatively painfree hack to cover any broken  dependencies arising from the Twitter's discontinuation of RSS support. In our case, we have digital signage which runs news tickers whose content is pulled in from an RSS feed of a named Twitter account. The firmware on the signage can't cope with JSON data, so we created a proxy which translates JSON data from Twitter's APv1.1 to the old RSS format.
 
-Why a Wordpress plugin? Well, there's many ways you could do this, and it just so happened that the quickest and easiest solution was to use a WP plugin rather than set up a standalone script. Plus, our environment has a lot of Wordpress sites that use social media widgets including RSS feeds, so the fit seemed good.
+Why a Wordpress plugin? Well, there's many ways you could do this, and it just so happened that the quickest and easiest solution was to use a WP plugin rather than set up a standalone script. Plus, our environment has a lot of Wordpress sites that use social media widgets including RSS feeds, so the fit seemed good. You could just pull out the twitterrss.php and rssWriter.php files and use them cold - the only WP-specifc code used is the specification of the plugin_dir_path() function to include the necessary scripts, so you can just edit that to your own local settings.
 
 ## Installation
 
@@ -23,3 +23,6 @@ Some options you can add to your url query string:
  verbose         - determines whether error messages are echoed
  screen_name     - specifies the Twitter account RSS feed to be cached / returned
 
+## Dependencies
+
+We assume php-xml is installed.
