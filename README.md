@@ -17,11 +17,11 @@ Then when you visit that page in your browser, in order to get an RSS feed for t
 
 Some options you can add to your url query string:
 
- cacheExpiry     - no of mins to wait between cache refresh
- forceRefresh    - ignore cached version if true
- cacheFolder     - replaces default value "./cache"
- verbose         - determines whether error messages are echoed
- screen_name     - specifies the Twitter account RSS feed to be cached / returned
+* cacheExpiry     - no of mins to wait between cache refresh
+* forceRefresh    - ignore cached version if true
+* cacheFolder     - replaces default value "./cache"
+* verbose         - determines whether error messages are echoed
+* screen_name     - specifies the Twitter account RSS feed to be cached / returned
 
 ## Dependencies
 
