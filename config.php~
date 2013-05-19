@@ -1,7 +1,0 @@
-<?php 
-        define('CONSUMER_KEY', 'Gr7tPuRMVfoG5OKbys4mw');
-        define('CONSUMER_SECRET', '6TtkQiNiEN9bGhEzEJrFgQcQ5WAXvnIAceMokFwx8gA');
-        define('OAUTH_TOKEN', '6273082-OUIBCrWFBP08sx9TLNMqXNhxxpYSkZeGPzAOR9OJo');
-        define('OAUTH_TOKEN_SECRET', 'p59L4jxhzd7r0DiexlLxcsBl50EbUiEaD6KVmYTTq54');
-        
-?>
