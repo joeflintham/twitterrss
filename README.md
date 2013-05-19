@@ -26,3 +26,7 @@ Some options you can add to your url query string:
 ## Dependencies
 
 We assume php-xml is installed.
+
+## Credits
+
+We use the excellent twitteroauth library: https://github.com/abraham/twitteroauth
